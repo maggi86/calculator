@@ -2,32 +2,57 @@
     margin:0%;
     padding:0%;
 }
-input{
+li, #screen, #clear{
     outline: 0;
     position: relative;
-    left: 5px;
-    top: 5px;
-    border: 0;
-    color: #6b7596;
-    background-color: 4px;
-    width: 60px;
-    height: 50px;
-    float: inline-start;
+    padding:20px;
+    top: 10%;
+    border: 1px;
+    list-style: none;
+    float: left;
     margin: 5px;
-    font-size: 20px;
-    box-shadow: 0 4px rgba(0,0,0,0.2);
+    font-size: 50px;
+    border-radius:10px;
+
 }
 
+li{
+    color: #6b7596;
+    background-color: rgba(219, 29, 175, 0.779);
+    width: 50px;
+    height: 50px;    
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    padding:20px;
+}
+
+#screen{
+    background-color: white;
+    height: 50px;
+    width:359px;
+    padding:20px;
+}
 .operator{
-    background-color: #ff0059b5;
+    background-color: #ff0062b7;
     position: relative;
 }
 
+.column {
+    background-color: #9b0b4cab;
+    height: 520px;
+    width: 410px;
+    margin-left: 600px;
+    border-radius:10px;
+}
+
+.main{
+    padding-top:100px;
+}
 
 #clear{
-    float: left;
-    position: relative;
     display: block;
-    background-color: #a50251b8;
+    background-color: #a50251;
     margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
 } 
